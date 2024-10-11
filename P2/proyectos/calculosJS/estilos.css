@@ -1,0 +1,70 @@
+
+/*todo el cuerpo fondo*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, rgba(160, 175, 79, 0.8), rgba(21, 15, 21, 0.8)), url('fondo.jpg') ;
+    background-size: cover;
+    color: #fff;
+}
+
+section {
+    background-color: rgba(30,30,30,0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(102, 102, 243, 0.3);
+}
+
+/*titulo*/
+h1 {
+    text-align: center;
+    color:#47df84;
+    margin-bottom: 1rem;
+}
+
+form {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    font-weight: bold;
+    color: #6467bb;
+}
+
+input, select {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255,255,255,0.1);
+    color: #604aee;
+}
+
+input[type="button"] {
+    background-color: #47df84;
+    color: #6467bb;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #a94f7f;
+}
+
+#resultado {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.option{
+    color: black;
+}
