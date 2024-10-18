@@ -9,11 +9,11 @@ body {
     margin: 0;
     background: linear-gradient(135deg, rgba(160, 175, 79, 0.8), rgba(21, 15, 21, 0.8)), url('fondo.jpg') ;
     background-size: cover;
-    color: #fff;
+    color: #3b84ac;
 }
-
+/*es la tablita de la calculadora*/
 section {
-    background-color: rgba(30,30,30,0.8);
+    background-color: rgba(61, 34, 34, 0.8);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(102, 102, 243, 0.3);
@@ -46,14 +46,17 @@ input, select {
     background-color: rgba(255,255,255,0.1);
     color: #604aee;
 }
-
+/*para color fijo y formas del boton*/
 input[type="button"] {
-    background-color: #47df84;
-    color: #6467bb;
+    background-color: #29e1f6;
+    margin-top: 2vw;
+    padding: 2vw;
+    color: #181935;
     cursor: pointer;
     transition: background-color 0.3s;
+    border-radius: 10px;
 }
-
+/*para el cambio del color del botton*/
 input[type="button"]:hover {
     background-color: #a94f7f;
 }
