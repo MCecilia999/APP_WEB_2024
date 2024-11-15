@@ -1,0 +1,193 @@
+/* Estilos para las secciones de trabajos, proyectos, blog y contacto */
+.contenedor-trabajos, .contenedor-proyectos, .contenedor-blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.trabajo, .proyecto, .entrada {
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.trabajo h4, .proyecto h4, .entrada h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.trabajo p, .proyecto p, .entrada p {
+    font-size: 1rem;
+}
+
+form {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #5db8f8;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0909a4;
+}
+
+.contenedor-blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 2rem;
+}
+
+.entrada {
+    flex: 1;
+    background-color: #b5b8d0; /* Color de fondo de la caja */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.video-link img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos existentes */
+.contenedor-trabajos, .contenedor-proyectos, .contenedor-blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.trabajo, .proyecto, .entrada {
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.trabajo h4, .proyecto h4, .entrada h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.trabajo p, .proyecto p, .entrada p {
+    font-size: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #5db8f8;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0380c9;
+}
+
+/* Nuevos estilos para la sección de contacto */
+#contacto {
+    padding: 2rem 0;
+}
+
+.formulario-contacto {
+    background-image: url('../img/fondo_c.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contacto form {
+    background-color: rgba(137, 121, 121, 0.23);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.formulario-contacto label {
+    color: #060505;
+    font-weight: bold;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulario-contacto button[type="submit"] {
+    background-color: #5db8f8;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-contacto button[type="submit"]:hover {
+    background-color: #1f16bb;
+}
