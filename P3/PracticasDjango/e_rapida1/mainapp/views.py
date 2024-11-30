@@ -1,27 +1,26 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 
 # Create your views here.
-
-def index(request):
-    return render(request,'mainapp/index.html',{
-        'title': 'Inicio',
-        'content':'Soy inicio'
+def index(requets):
+    return render(requets, 'mainapp/index.html', {
+        'title':'Inicio  Pagina Principal',
+        'content': '.:: ¡Bienvenido a mi pagina principal!::.' 
     })
 
-def index(request):
-    return render(request,'mainapp/about.html',{
-        'title': 'Inicio',
-        'content':'Soy about'
+def abaut(requets):
+    mensaje='Bienvenido mi nombre es: Cecilia Mendoza '
+    return render(requets, 'mainapp/about.html', {
+        'title': 'Hacerca de Nosotros',
+        'content': 'Somos un grupo de desarrolladores de SW Multiplataforma',
+        'mensaje':'mensaje'
     })
-
-def index(request):
-    return render(request,'mainapp/mision.html',{
-        'title': 'Inicio',
-        'content':'Soy mision'
+def mision(requets):
+    return render(requets, 'mainapp/mision.html',{
+        'title': 'Mision',
+        'content': '.::¡Bienvenido a la mision de mi empresa::.!',
     })
-
-def index(request):
-    return render(request,'mainapp/vision.html',{
-        'title': 'Inicio',
-        'content':'Soy vision'
+def vision(requets):
+    return render(requets, 'mainapp/vision.html',{
+        'title': 'Vision',
+        'content': '.::¡Bienvenido a la vision de mi empresa::.!',
     })
